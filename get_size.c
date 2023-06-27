@@ -6,6 +6,8 @@
  *@format: Formatted string in which to print the arguments
  * Return: Precision.
  */
+
+
 intget_size(const char *format, int *i)
 {
 	int curr_i = *i + 1;
